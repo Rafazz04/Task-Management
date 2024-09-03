@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\TaskManagement.Communication\TaskManagement.Communication.csproj" />
+    <ProjectReference Include="..\..\shared\TaskManagement.Exceptions\TaskManagement.Exceptions.csproj" />
+    <ProjectReference Include="..\TaskManagement.Domain\TaskManagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
