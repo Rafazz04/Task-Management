@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\TaskManagement.Communication\TaskManagement.Communication.csproj" />
+    <ProjectReference Include="..\..\shared\TaskManagement.Exceptions\TaskManagement.Exceptions.csproj" />
+    <ProjectReference Include="..\TaskManagement.Application\TaskManagement.Application.csproj" />
+  </ItemGroup>
+
 </Project>
